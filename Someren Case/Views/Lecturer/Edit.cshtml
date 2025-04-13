@@ -1,0 +1,52 @@
+﻿@model Lecturer
+
+@{
+    ViewData["Title"] = "Edit Lecturer";
+}
+
+<h2 class="mb-4">@ViewData["Title"]</h2>
+
+<div class="card shadow rounded">
+    <div class="card-body">
+        <form asp-action="Edit" method="post">
+            <input type="hidden" name="LecturerID" value="@Model.LecturerID"/>
+
+            <!-- First Name -->
+            <div class="form-group mb-3">
+                <label for="FirstName" class="form-label">First Name</label>
+                <input type="text" name="FirstName" id="FirstName" value="@Model.FirstName" class="form-control"
+                       required/>
+            </div>
+
+            <!-- Last Name -->
+            <div class="form-group mb-3">
+                <label for="LastName" class="form-label">Last Name</label>
+                <input type="text" name="LastName" id="LastName" value="@Model.LastName" class="form-control" required/>
+            </div>
+
+            <!-- Phone Number -->
+            <div class="form-group mb-3">
+                <label for="PhoneNumber" class="form-label">Phone Number</label>
+                <input type="text" name="PhoneNumber" id="PhoneNumber" value="@Model.PhoneNumber" class="form-control"
+                       required/>
+            </div>
+
+            <!-- Date of Birth -->
+            <div class="form-group mb-3">
+                <label for="DateOfBirth" class="form-label">Date of Birth</label>
+                <input type="date" name="DateOfBirth" id="DateOfBirth" value="@Model.DateOfBirth.ToString("yyyy-MM-dd")"
+                       class="form-control" required/>
+            </div>
+
+            <!-- Buttons -->
+            <div class="d-flex justify-content-between">
+                <button type="submit" class="btn btn-primary">Update</button>
+                <a href="@Url.Action("Index", "Lecturer")" class="btn btn-outline-secondary">Cancel</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+<footer class="footer text-muted mt-4">
+    <p>&copy; 2025 - Someren_Case</p>
+</footer>

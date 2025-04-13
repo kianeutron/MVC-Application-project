@@ -1,0 +1,58 @@
+﻿@model List<Room>
+
+@{
+    ViewData["Title"] = "Rooms Management";
+}
+
+<h2>Rooms</h2>
+
+
+<div class="mb-3">
+    <a asp-action="Create" class="btn btn-success">Create New Room</a>
+</div>
+
+
+<table class="table table-striped table-hover">
+    <thead class="thead-dark">
+    <tr>
+
+        <th>Floor Number</th>
+        <th>Number of Beds</th>
+        <th>Building</th>
+        <th>Room Type</th>
+        <th>Actions</th>
+    </tr>
+    </thead>
+    <tbody>
+    @foreach (var room in Model)
+    {
+        <tr>
+
+            <td>@room.FloorNumber</td>
+            <td>@room.NumberOfBeds</td>
+            <td>@room.Building</td>
+            <td>@room.RoomType</td>
+            <td>
+
+                <a asp-action="Edit" asp-route-id="@room.RoomID" class="btn btn-primary btn-sm">
+                    <i class="fas fa-edit"></i> Edit
+                </a>
+
+
+                <a asp-action="Delete" asp-route-id="@room.RoomID" class="btn btn-danger btn-sm"
+                   onclick="return confirm('Are you sure you want to delete this room?');">
+                    <i class="fas fa-trash"></i> Delete
+                </a>
+
+
+                @if (room.RoomType == "For Students")
+                {
+                    <a asp-action="ManageDormitory" asp-route-id="@room.RoomID" class="btn btn-info btn-sm">
+                        <i class="fas fa-users"></i> Manage Students
+                    </a>
+                }
+            </td>
+        </tr>
+    }
+    </tbody>
+</table>

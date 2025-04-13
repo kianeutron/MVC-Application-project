@@ -1,0 +1,58 @@
+@model Activity
+
+@{
+    ViewData["Title"] = "Edit Activity";
+}
+
+<h2 class="text-center my-4">Edit Activity</h2>
+
+<div class="container">
+    <form asp-action="Edit" method="post">
+        <input type="hidden" asp-for="ActivityID"/>
+
+        <div class="card shadow-sm">
+            <div class="card-body">
+                <h4 class="card-title text-center mb-4">Edit Activity Details</h4>
+
+
+                <div class="form-group row mb-3">
+                    <label for="ActivityName" class="col-sm-2 col-form-label">Activity Name:</label>
+                    <div class="col-sm-10">
+                        <input type="text" asp-for="ActivityName" class="form-control" required
+                               placeholder="Enter activity name"/>
+                    </div>
+                </div>
+
+
+                <div class="form-group row mb-3">
+                    <label for="Date" class="col-sm-2 col-form-label">Date:</label>
+                    <div class="col-sm-10">
+                        <input type="date" asp-for="Date" class="form-control" required/>
+                    </div>
+                </div>
+
+
+                <div class="form-group row mb-3">
+                    <label for="StartTime" class="col-sm-2 col-form-label">Start Time:</label>
+                    <div class="col-sm-10">
+                        <input type="time" asp-for="StartTime" class="form-control" required/>
+                    </div>
+                </div>
+
+
+                <div class="form-group row mb-4">
+                    <label for="EndTime" class="col-sm-2 col-form-label">End Time:</label>
+                    <div class="col-sm-10">
+                        <input type="time" asp-for="EndTime" class="form-control" required/>
+                    </div>
+                </div>
+
+
+                <div class="d-flex justify-content-between">
+                    <button type="submit" class="btn btn-success btn-lg">Save Changes</button>
+                    <a asp-action="Index" class="btn btn-secondary btn-lg">Back to Activities List</a>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>

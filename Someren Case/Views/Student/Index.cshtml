@@ -1,0 +1,106 @@
+@model List<Student>
+
+<h2>Student List</h2>
+
+<a asp-action="Create" class="btn btn-primary add-btn">Add New Student</a>
+
+@if (Model == null || Model.Count == 0)
+{
+    <p>No students found.</p>
+}
+else
+{
+    <table class="student-table">
+        <thead>
+        <tr>
+
+            <th>Student Number</th>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Phone Number</th>
+            <th>Class</th>
+            <th>Actions</th>
+        </tr>
+        </thead>
+        <tbody>
+        @foreach (var student in Model)
+        {
+            <tr>
+
+                <td>@student.StudentNumber</td>
+                <td>@student.FirstName</td>
+                <td>@student.LastName</td>
+                <td>@student.PhoneNumber</td>
+                <td>@student.Class</td>
+                <td>
+                    <a asp-action="Edit" asp-route-studentId="@student.StudentID" class="btn btn-warning">Edit</a>
+                    <a asp-action="Delete" asp-route-studentId="@student.StudentID" class="btn btn-danger">Delete</a>
+                </td>
+            </tr>
+        }
+        </tbody>
+    </table>
+}
+
+<style>
+    .student-table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 20px 0;
+        font-family: Arial, sans-serif;
+    }
+
+    .student-table th, .student-table td {
+        border: 1px solid #ddd;
+        padding: 12px;
+        text-align: left;
+    }
+
+    .student-table th {
+        background-color: #4CAF50;
+        color: white;
+        font-weight: bold;
+    }
+
+    .student-table tr:nth-child(even) {
+        background-color: #f2f2f2;
+    }
+
+    .student-table tr:hover {
+        background-color: #ddd;
+    }
+
+    .student-table td {
+        font-size: 14px;
+    }
+
+    .btn {
+        padding: 8px 12px;
+        text-decoration: none;
+        border-radius: 4px;
+        font-size: 14px;
+        display: inline-block;
+    }
+
+    .btn-primary {
+        background-color: #007bff;
+        color: white;
+        border: none;
+    }
+
+    .btn-warning {
+        background-color: #ffc107;
+        color: black;
+    }
+
+    .btn-danger {
+        background-color: #dc3545;
+        color: white;
+    }
+
+    .add-btn {
+        display: block;
+        width: fit-content;
+        margin-bottom: 10px;
+    }
+</style>

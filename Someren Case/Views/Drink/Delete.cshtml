@@ -1,0 +1,40 @@
+@model Drink
+
+@{
+    ViewData["Title"] = "Delete Drink";
+}
+
+<div class="container mt-5">
+    <div class="card shadow-lg rounded">
+        <div class="card-header bg-danger text-white">
+            <h3 class="mb-0">Confirm Delete</h3>
+        </div>
+
+        <div class="card-body">
+            <p class="lead">Are you sure you want to delete this drink?</p>
+
+            <dl class="row">
+                <dt class="col-sm-3">Name</dt>
+                <dd class="col-sm-9">@Model.Name</dd>
+
+                <dt class="col-sm-3">Type</dt>
+                <dd class="col-sm-9">@Model.Type</dd>
+
+                <dt class="col-sm-3">VAT Rate</dt>
+                <dd class="col-sm-9">@Model.VATRate.ToString("0.00")</dd>
+
+                <dt class="col-sm-3">Stock Quantity</dt>
+                <dd class="col-sm-9">@Model.StockQuantity</dd>
+            </dl>
+
+            <form asp-action="Delete" asp-route-id="@Model.DrinkID" method="post">
+                <input type="hidden" asp-for="DrinkID"/>
+
+                <div class="d-flex justify-content-between mt-4">
+                    <button type="submit" class="btn btn-danger">Delete</button>
+                    <a asp-action="Index" class="btn btn-outline-secondary">Cancel</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,42 @@
+@{
+    ViewData["Title"] = "Add Participant to Activity";
+    var activity = ViewBag.Activity as Activity;
+}
+
+<h2 class="text-center my-4">Add Participant to @activity.ActivityName</h2>
+
+<div class="container">
+   
+    @if (TempData["Message"] != null)
+    {
+        <div class="alert alert-success text-center">
+            @TempData["Message"]
+        </div>
+    }
+
+    <h3>Select a Student to Add</h3>
+
+    <form method="post" action="@Url.Action("AddParticipant", "Activity")">
+        <input type="hidden" name="activityId" value="@activity.ActivityID"/>
+
+        <div class="mb-3">
+            <label for="StudentID" class="form-label">Select Student</label>
+            <select class="form-select" name="studentId" required>
+                <option value="">-- Select a Student --</option>
+                @foreach (var student in ViewBag.NonParticipants)
+                {
+                    <option value="@student.StudentID">@student.FirstName @student.LastName</option>
+                }
+            </select>
+        </div>
+
+        <div class="text-center">
+            <button type="submit" class="btn btn-success">Add Participant</button>
+        </div>
+    </form>
+
+    <div class="text-center mt-4">
+        <a href="@Url.Action("ManageParticipants", "Activity", new { activityId = activity.ActivityID })"
+           class="btn btn-secondary">Back to Manage Participants</a>
+    </div>
+</div>

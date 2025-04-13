@@ -1,0 +1,94 @@
+/Users/kiankhatibi/Desktop/Someren-Case/Someren Case/bin/Debug/net8.0/appsettings.Development.json
+/Users/kiankhatibi/Desktop/Someren-Case/Someren Case/bin/Debug/net8.0/appsettings.json
+/Users/kiankhatibi/Desktop/Someren-Case/Someren Case/bin/Debug/net8.0/Someren Case.staticwebassets.runtime.json
+/Users/kiankhatibi/Desktop/Someren-Case/Someren Case/bin/Debug/net8.0/Someren Case
+/Users/kiankhatibi/Desktop/Someren-Case/Someren Case/bin/Debug/net8.0/Someren Case.deps.json
+/Users/kiankhatibi/Desktop/Someren-Case/Someren Case/bin/Debug/net8.0/Someren Case.runtimeconfig.json
+/Users/kiankhatibi/Desktop/Someren-Case/Someren Case/bin/Debug/net8.0/Someren Case.dll
+/Users/kiankhatibi/Desktop/Someren-Case/Someren Case/bin/Debug/net8.0/Someren Case.pdb
+/Users/kiankhatibi/Desktop/Someren-Case/Someren Case/bin/Debug/net8.0/Azure.Core.dll
+/Users/kiankhatibi/Desktop/Someren-Case/Someren Case/bin/Debug/net8.0/Azure.Identity.dll
+/Users/kiankhatibi/Desktop/Someren-Case/Someren Case/bin/Debug/net8.0/Microsoft.Bcl.AsyncInterfaces.dll
+/Users/kiankhatibi/Desktop/Someren-Case/Someren Case/bin/Debug/net8.0/Microsoft.Data.SqlClient.dll
+/Users/kiankhatibi/Desktop/Someren-Case/Someren Case/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.dll
+/Users/kiankhatibi/Desktop/Someren-Case/Someren Case/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/Users/kiankhatibi/Desktop/Someren-Case/Someren Case/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Relational.dll
+/Users/kiankhatibi/Desktop/Someren-Case/Someren Case/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.SqlServer.dll
+/Users/kiankhatibi/Desktop/Someren-Case/Someren Case/bin/Debug/net8.0/Microsoft.Extensions.Caching.Abstractions.dll
+/Users/kiankhatibi/Desktop/Someren-Case/Someren Case/bin/Debug/net8.0/Microsoft.Extensions.Caching.Memory.dll
+/Users/kiankhatibi/Desktop/Someren-Case/Someren Case/bin/Debug/net8.0/Microsoft.Extensions.Configuration.dll
+/Users/kiankhatibi/Desktop/Someren-Case/Someren Case/bin/Debug/net8.0/Microsoft.Extensions.Configuration.Abstractions.dll
+/Users/kiankhatibi/Desktop/Someren-Case/Someren Case/bin/Debug/net8.0/Microsoft.Extensions.DependencyInjection.dll
+/Users/kiankhatibi/Desktop/Someren-Case/Someren Case/bin/Debug/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+/Users/kiankhatibi/Desktop/Someren-Case/Someren Case/bin/Debug/net8.0/Microsoft.Extensions.Logging.dll
+/Users/kiankhatibi/Desktop/Someren-Case/Someren Case/bin/Debug/net8.0/Microsoft.Extensions.Logging.Abstractions.dll
+/Users/kiankhatibi/Desktop/Someren-Case/Someren Case/bin/Debug/net8.0/Microsoft.Extensions.Options.dll
+/Users/kiankhatibi/Desktop/Someren-Case/Someren Case/bin/Debug/net8.0/Microsoft.Extensions.Primitives.dll
+/Users/kiankhatibi/Desktop/Someren-Case/Someren Case/bin/Debug/net8.0/Microsoft.Identity.Client.dll
+/Users/kiankhatibi/Desktop/Someren-Case/Someren Case/bin/Debug/net8.0/Microsoft.Identity.Client.Extensions.Msal.dll
+/Users/kiankhatibi/Desktop/Someren-Case/Someren Case/bin/Debug/net8.0/Microsoft.IdentityModel.Abstractions.dll
+/Users/kiankhatibi/Desktop/Someren-Case/Someren Case/bin/Debug/net8.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/Users/kiankhatibi/Desktop/Someren-Case/Someren Case/bin/Debug/net8.0/Microsoft.IdentityModel.Logging.dll
+/Users/kiankhatibi/Desktop/Someren-Case/Someren Case/bin/Debug/net8.0/Microsoft.IdentityModel.Protocols.dll
+/Users/kiankhatibi/Desktop/Someren-Case/Someren Case/bin/Debug/net8.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/Users/kiankhatibi/Desktop/Someren-Case/Someren Case/bin/Debug/net8.0/Microsoft.IdentityModel.Tokens.dll
+/Users/kiankhatibi/Desktop/Someren-Case/Someren Case/bin/Debug/net8.0/Microsoft.SqlServer.Server.dll
+/Users/kiankhatibi/Desktop/Someren-Case/Someren Case/bin/Debug/net8.0/Microsoft.Win32.SystemEvents.dll
+/Users/kiankhatibi/Desktop/Someren-Case/Someren Case/bin/Debug/net8.0/System.ClientModel.dll
+/Users/kiankhatibi/Desktop/Someren-Case/Someren Case/bin/Debug/net8.0/System.Configuration.ConfigurationManager.dll
+/Users/kiankhatibi/Desktop/Someren-Case/Someren Case/bin/Debug/net8.0/System.Data.SqlClient.dll
+/Users/kiankhatibi/Desktop/Someren-Case/Someren Case/bin/Debug/net8.0/System.Diagnostics.DiagnosticSource.dll
+/Users/kiankhatibi/Desktop/Someren-Case/Someren Case/bin/Debug/net8.0/System.Drawing.Common.dll
+/Users/kiankhatibi/Desktop/Someren-Case/Someren Case/bin/Debug/net8.0/System.Formats.Asn1.dll
+/Users/kiankhatibi/Desktop/Someren-Case/Someren Case/bin/Debug/net8.0/System.IdentityModel.Tokens.Jwt.dll
+/Users/kiankhatibi/Desktop/Someren-Case/Someren Case/bin/Debug/net8.0/System.IO.Pipelines.dll
+/Users/kiankhatibi/Desktop/Someren-Case/Someren Case/bin/Debug/net8.0/System.Memory.Data.dll
+/Users/kiankhatibi/Desktop/Someren-Case/Someren Case/bin/Debug/net8.0/System.Runtime.Caching.dll
+/Users/kiankhatibi/Desktop/Someren-Case/Someren Case/bin/Debug/net8.0/System.Security.Cryptography.ProtectedData.dll
+/Users/kiankhatibi/Desktop/Someren-Case/Someren Case/bin/Debug/net8.0/System.Security.Permissions.dll
+/Users/kiankhatibi/Desktop/Someren-Case/Someren Case/bin/Debug/net8.0/System.Text.Encodings.Web.dll
+/Users/kiankhatibi/Desktop/Someren-Case/Someren Case/bin/Debug/net8.0/System.Text.Json.dll
+/Users/kiankhatibi/Desktop/Someren-Case/Someren Case/bin/Debug/net8.0/System.Windows.Extensions.dll
+/Users/kiankhatibi/Desktop/Someren-Case/Someren Case/bin/Debug/net8.0/runtimes/unix/lib/net6.0/Microsoft.Data.SqlClient.dll
+/Users/kiankhatibi/Desktop/Someren-Case/Someren Case/bin/Debug/net8.0/runtimes/win/lib/net6.0/Microsoft.Data.SqlClient.dll
+/Users/kiankhatibi/Desktop/Someren-Case/Someren Case/bin/Debug/net8.0/runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/kiankhatibi/Desktop/Someren-Case/Someren Case/bin/Debug/net8.0/runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/kiankhatibi/Desktop/Someren-Case/Someren Case/bin/Debug/net8.0/runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/kiankhatibi/Desktop/Someren-Case/Someren Case/bin/Debug/net8.0/runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/kiankhatibi/Desktop/Someren-Case/Someren Case/bin/Debug/net8.0/runtimes/win/lib/net6.0/Microsoft.Win32.SystemEvents.dll
+/Users/kiankhatibi/Desktop/Someren-Case/Someren Case/bin/Debug/net8.0/runtimes/win-arm64/native/sni.dll
+/Users/kiankhatibi/Desktop/Someren-Case/Someren Case/bin/Debug/net8.0/runtimes/win-x64/native/sni.dll
+/Users/kiankhatibi/Desktop/Someren-Case/Someren Case/bin/Debug/net8.0/runtimes/win-x86/native/sni.dll
+/Users/kiankhatibi/Desktop/Someren-Case/Someren Case/bin/Debug/net8.0/runtimes/unix/lib/net8.0/System.Data.SqlClient.dll
+/Users/kiankhatibi/Desktop/Someren-Case/Someren Case/bin/Debug/net8.0/runtimes/win/lib/net8.0/System.Data.SqlClient.dll
+/Users/kiankhatibi/Desktop/Someren-Case/Someren Case/bin/Debug/net8.0/runtimes/unix/lib/net6.0/System.Drawing.Common.dll
+/Users/kiankhatibi/Desktop/Someren-Case/Someren Case/bin/Debug/net8.0/runtimes/win/lib/net6.0/System.Drawing.Common.dll
+/Users/kiankhatibi/Desktop/Someren-Case/Someren Case/bin/Debug/net8.0/runtimes/win/lib/net6.0/System.Runtime.Caching.dll
+/Users/kiankhatibi/Desktop/Someren-Case/Someren Case/bin/Debug/net8.0/runtimes/win/lib/net6.0/System.Security.Cryptography.ProtectedData.dll
+/Users/kiankhatibi/Desktop/Someren-Case/Someren Case/bin/Debug/net8.0/runtimes/browser/lib/net8.0/System.Text.Encodings.Web.dll
+/Users/kiankhatibi/Desktop/Someren-Case/Someren Case/bin/Debug/net8.0/runtimes/win/lib/net6.0/System.Windows.Extensions.dll
+/Users/kiankhatibi/Desktop/Someren-Case/Someren Case/obj/Debug/net8.0/Someren Case.csproj.AssemblyReference.cache
+/Users/kiankhatibi/Desktop/Someren-Case/Someren Case/obj/Debug/net8.0/Someren Case.GeneratedMSBuildEditorConfig.editorconfig
+/Users/kiankhatibi/Desktop/Someren-Case/Someren Case/obj/Debug/net8.0/Someren Case.AssemblyInfoInputs.cache
+/Users/kiankhatibi/Desktop/Someren-Case/Someren Case/obj/Debug/net8.0/Someren Case.AssemblyInfo.cs
+/Users/kiankhatibi/Desktop/Someren-Case/Someren Case/obj/Debug/net8.0/Someren Case.csproj.CoreCompileInputs.cache
+/Users/kiankhatibi/Desktop/Someren-Case/Someren Case/obj/Debug/net8.0/Someren Case.MvcApplicationPartsAssemblyInfo.cache
+/Users/kiankhatibi/Desktop/Someren-Case/Someren Case/obj/Debug/net8.0/Someren Case.RazorAssemblyInfo.cache
+/Users/kiankhatibi/Desktop/Someren-Case/Someren Case/obj/Debug/net8.0/Someren Case.RazorAssemblyInfo.cs
+/Users/kiankhatibi/Desktop/Someren-Case/Someren Case/obj/Debug/net8.0/Someren Case.sourcelink.json
+/Users/kiankhatibi/Desktop/Someren-Case/Someren Case/obj/Debug/net8.0/staticwebassets.build.json
+/Users/kiankhatibi/Desktop/Someren-Case/Someren Case/obj/Debug/net8.0/staticwebassets.development.json
+/Users/kiankhatibi/Desktop/Someren-Case/Someren Case/obj/Debug/net8.0/staticwebassets/msbuild.Someren Case.Microsoft.AspNetCore.StaticWebAssets.props
+/Users/kiankhatibi/Desktop/Someren-Case/Someren Case/obj/Debug/net8.0/staticwebassets/msbuild.build.Someren Case.props
+/Users/kiankhatibi/Desktop/Someren-Case/Someren Case/obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.Someren Case.props
+/Users/kiankhatibi/Desktop/Someren-Case/Someren Case/obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.Someren Case.props
+/Users/kiankhatibi/Desktop/Someren-Case/Someren Case/obj/Debug/net8.0/staticwebassets.pack.json
+/Users/kiankhatibi/Desktop/Someren-Case/Someren Case/obj/Debug/net8.0/scopedcss/Views/Shared/_Layout.cshtml.rz.scp.css
+/Users/kiankhatibi/Desktop/Someren-Case/Someren Case/obj/Debug/net8.0/scopedcss/bundle/Someren Case.styles.css
+/Users/kiankhatibi/Desktop/Someren-Case/Someren Case/obj/Debug/net8.0/scopedcss/projectbundle/Someren Case.bundle.scp.css
+/Users/kiankhatibi/Desktop/Someren-Case/Someren Case/obj/Debug/net8.0/Someren .995C2F01.Up2Date
+/Users/kiankhatibi/Desktop/Someren-Case/Someren Case/obj/Debug/net8.0/Someren Case.dll
+/Users/kiankhatibi/Desktop/Someren-Case/Someren Case/obj/Debug/net8.0/refint/Someren Case.dll
+/Users/kiankhatibi/Desktop/Someren-Case/Someren Case/obj/Debug/net8.0/Someren Case.pdb
+/Users/kiankhatibi/Desktop/Someren-Case/Someren Case/obj/Debug/net8.0/Someren Case.genruntimeconfig.cache
+/Users/kiankhatibi/Desktop/Someren-Case/Someren Case/obj/Debug/net8.0/ref/Someren Case.dll

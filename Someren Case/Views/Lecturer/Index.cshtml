@@ -1,0 +1,57 @@
+﻿@model List<Lecturer>
+
+@{
+    ViewData["Title"] = "Lecturers";
+}
+
+<h2 class="mb-4">@ViewData["Title"]</h2>
+
+
+<a href="@Url.Action("Create", "Lecturer")" class="btn btn-success mb-3">
+    <i class="bi bi-person-plus"></i> Add New Lecturer
+</a>
+
+<div class="card shadow rounded">
+    <div class="card-body p-0">
+        <table class="table table-striped table-hover mb-0">
+            <thead class="table-dark">
+            <tr>
+
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Phone Number</th>
+                <th>Age</th>
+                <th class="text-center">Actions</th>
+            </tr>
+            </thead>
+            <tbody>
+            @foreach (var lecturer in Model)
+            {
+                <tr>
+
+                    <td>@lecturer.FirstName</td>
+                    <td>@lecturer.LastName</td>
+                    <td>@lecturer.PhoneNumber</td>
+                    <td>@lecturer.Age</td>
+                    <td class="text-center">
+
+                        <a href="@Url.Action("Edit", "Lecturer", new { id = lecturer.LecturerID })"
+                           class="btn btn-warning btn-sm me-2">
+                            <i class="bi bi-pencil-square"></i> Edit
+                        </a>
+                        <a href="@Url.Action("Delete", "Lecturer", new { id = lecturer.LecturerID })"
+                           class="btn btn-danger btn-sm"
+                           onclick="return confirm('Are you sure you want to delete this lecturer?');">
+                            <i class="bi bi-trash"></i> Delete
+                        </a>
+                    </td>
+                </tr>
+            }
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<footer class="footer text-muted mt-4">
+    
+</footer>

@@ -1,0 +1,53 @@
+@{
+    ViewData["Title"] = "Home";
+}
+
+<div class="container mt-5">
+    <!-- Hero Section -->
+    <div class="p-5 mb-4 bg-light rounded-3 shadow-sm">
+        <div class="container-fluid py-5 text-center">
+            <h1 class="display-4 fw-bold text-primary">Welcome to the Someren Web Application</h1>
+            <p class="lead text-secondary">
+                A streamlined solution for managing drinks, students, lecturers, rooms, and activities.
+            </p>
+            <a href="https://learn.microsoft.com/aspnet/core" target="_blank"
+               class="btn btn-outline-primary btn-lg mt-3">
+                <i class="bi bi-box-arrow-up-right me-1"></i> Learn ASP.NET Core
+            </a>
+        </div>
+    </div>
+
+    <!-- Navigation Buttons -->
+    <div class="row g-4 text-center">
+        <div class="col-md-4 col-lg-2">
+            <a href="@Url.Action("Index", "Student")" class="btn btn-outline-dark w-100 shadow-sm">
+                <i class="bi bi-people-fill me-2"></i>Students
+            </a>
+        </div>
+        <div class="col-md-4 col-lg-2">
+            <a href="@Url.Action("Index", "Activity")" class="btn btn-outline-dark w-100 shadow-sm">
+                <i class="bi bi-calendar-event me-2"></i>Activities
+            </a>
+        </div>
+        <div class="col-md-4 col-lg-2">
+            <a href="@Url.Action("Index", "Room")" class="btn btn-outline-dark w-100 shadow-sm">
+                <i class="bi bi-door-open-fill me-2"></i>Rooms
+            </a>
+        </div>
+        <div class="col-md-4 col-lg-2">
+            <a href="@Url.Action("Index", "Drink")" class="btn btn-outline-dark w-100 shadow-sm">
+                <i class="bi bi-cup-straw me-2"></i>Drinks
+            </a>
+        </div>
+        <div class="col-md-4 col-lg-2">
+            <a href="@Url.Action("Index", "Lecturer")" class="btn btn-outline-dark w-100 shadow-sm">
+                <i class="bi bi-person-badge-fill me-2"></i>Lecturers
+            </a>
+        </div>
+    </div>
+
+    <footer class="text-center mt-5 text-muted small">
+        <hr/>
+        &copy; 2025 - Someren_Case | Built with using ASP.NET Core
+    </footer>
+</div>

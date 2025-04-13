@@ -1,0 +1,60 @@
+@{
+    ViewData["Title"] = "Create Drink Order";
+}
+
+<div class="container mt-5">
+    <h2 class="mb-4">@ViewData["Title"]</h2>
+
+
+    @if (TempData["OrderSuccess"] != null)
+    {
+        <div class="alert alert-success">
+            <strong>Success!</strong> @TempData["OrderSuccess"]
+        </div>
+    }
+    @if (TempData["OrderError"] != null)
+    {
+        <div class="alert alert-danger">
+            <strong>Error!</strong> @TempData["OrderError"]
+        </div>
+    }
+
+    <!-- Order Form -->
+    <form method="post" action="/Order/Create" class="card p-4 shadow rounded">
+        <div class="form-group mb-3">
+            <label for="StudentID" class="form-label">Student</label>
+            <select id="StudentID" name="StudentID" class="form-control" required>
+                <option value="">Select a Student</option>
+                @foreach (var student in ViewData["Students"] as List<Student>)
+                {
+                    <option value="@student.StudentID">@student.FirstName</option>
+                }
+            </select>
+        </div>
+
+        <div class="form-group mb-3">
+            <label for="DrinkID" class="form-label">Drink</label>
+            <select id="DrinkID" name="DrinkID" class="form-control" required>
+                <option value="">Select a Drink</option>
+                @foreach (var drink in ViewData["Drinks"] as List<Drink>)
+                {
+                    <option value="@drink.DrinkID">@drink.Name</option>
+                }
+            </select>
+        </div>
+
+        <div class="form-group mb-3">
+            <label for="Quantity" class="form-label">Quantity</label>
+            <input type="number" id="Quantity" name="Quantity" class="form-control" min="1" required/>
+        </div>
+
+        <div class="d-flex justify-content-between">
+            <button type="submit" class="btn btn-primary">
+                <i class="bi bi-check-circle"></i> Confirm Order
+            </button>
+            <a href="@Url.Action("Index", "Drink")" class="btn btn-secondary">
+                <i class="bi bi-x-circle"></i> Cancel
+            </a>
+        </div>
+    </form>
+</div>
