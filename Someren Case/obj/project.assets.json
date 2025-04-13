@@ -3846,11 +3846,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/kiankhatibi/Desktop/Someren-Case/Someren Case/Someren Case.csproj",
+      "projectUniqueName": "/Users/kiankhatibi/Desktop/MVC-Application-project/Someren Case/Someren Case.csproj",
       "projectName": "Someren Case",
-      "projectPath": "/Users/kiankhatibi/Desktop/Someren-Case/Someren Case/Someren Case.csproj",
+      "projectPath": "/Users/kiankhatibi/Desktop/MVC-Application-project/Someren Case/Someren Case.csproj",
       "packagesPath": "/Users/kiankhatibi/.nuget/packages/",
-      "outputPath": "/Users/kiankhatibi/Desktop/Someren-Case/Someren Case/obj/",
+      "outputPath": "/Users/kiankhatibi/Desktop/MVC-Application-project/Someren Case/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/kiankhatibi/.nuget/NuGet/NuGet.Config"

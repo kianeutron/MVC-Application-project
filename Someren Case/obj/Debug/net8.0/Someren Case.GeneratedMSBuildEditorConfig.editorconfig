@@ -9,139 +9,139 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Someren_Case
 build_property.RootNamespace = Someren_Case
-build_property.ProjectDir = /Users/kiankhatibi/Desktop/Someren-Case/Someren Case/
+build_property.ProjectDir = /Users/kiankhatibi/Desktop/MVC-Application-project/Someren Case/
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = /Users/kiankhatibi/Desktop/Someren-Case/Someren Case
+build_property.MSBuildProjectDirectory = /Users/kiankhatibi/Desktop/MVC-Application-project/Someren Case
 build_property._RazorSourceGeneratorDebug = 
 
-[/Users/kiankhatibi/Desktop/Someren-Case/Someren Case/Views/Activity/AddParticipant.cshtml]
+[/Users/kiankhatibi/Desktop/MVC-Application-project/Someren Case/Views/Activity/AddParticipant.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWN0aXZpdHkvQWRkUGFydGljaXBhbnQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/kiankhatibi/Desktop/Someren-Case/Someren Case/Views/Activity/Create.cshtml]
+[/Users/kiankhatibi/Desktop/MVC-Application-project/Someren Case/Views/Activity/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWN0aXZpdHkvQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/kiankhatibi/Desktop/Someren-Case/Someren Case/Views/Activity/Delete.cshtml]
+[/Users/kiankhatibi/Desktop/MVC-Application-project/Someren Case/Views/Activity/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWN0aXZpdHkvRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/kiankhatibi/Desktop/Someren-Case/Someren Case/Views/Activity/Edit.cshtml]
+[/Users/kiankhatibi/Desktop/MVC-Application-project/Someren Case/Views/Activity/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWN0aXZpdHkvRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/kiankhatibi/Desktop/Someren-Case/Someren Case/Views/Activity/Index.cshtml]
+[/Users/kiankhatibi/Desktop/MVC-Application-project/Someren Case/Views/Activity/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWN0aXZpdHkvSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/kiankhatibi/Desktop/Someren-Case/Someren Case/Views/Activity/ManageParticipants.cshtml]
+[/Users/kiankhatibi/Desktop/MVC-Application-project/Someren Case/Views/Activity/ManageParticipants.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWN0aXZpdHkvTWFuYWdlUGFydGljaXBhbnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/kiankhatibi/Desktop/Someren-Case/Someren Case/Views/Activity/RemoveParticipants.cshtml]
+[/Users/kiankhatibi/Desktop/MVC-Application-project/Someren Case/Views/Activity/RemoveParticipants.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWN0aXZpdHkvUmVtb3ZlUGFydGljaXBhbnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/kiankhatibi/Desktop/Someren-Case/Someren Case/Views/Drink/Create.cshtml]
+[/Users/kiankhatibi/Desktop/MVC-Application-project/Someren Case/Views/Drink/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRHJpbmsvQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/kiankhatibi/Desktop/Someren-Case/Someren Case/Views/Drink/Delete.cshtml]
+[/Users/kiankhatibi/Desktop/MVC-Application-project/Someren Case/Views/Drink/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRHJpbmsvRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/kiankhatibi/Desktop/Someren-Case/Someren Case/Views/Drink/Edit.cshtml]
+[/Users/kiankhatibi/Desktop/MVC-Application-project/Someren Case/Views/Drink/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRHJpbmsvRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/kiankhatibi/Desktop/Someren-Case/Someren Case/Views/Drink/Index.cshtml]
+[/Users/kiankhatibi/Desktop/MVC-Application-project/Someren Case/Views/Drink/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRHJpbmsvSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/kiankhatibi/Desktop/Someren-Case/Someren Case/Views/Home/Index.cshtml]
+[/Users/kiankhatibi/Desktop/MVC-Application-project/Someren Case/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/kiankhatibi/Desktop/Someren-Case/Someren Case/Views/Home/Privacy.cshtml]
+[/Users/kiankhatibi/Desktop/MVC-Application-project/Someren Case/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/kiankhatibi/Desktop/Someren-Case/Someren Case/Views/Lecturer/Create.cshtml]
+[/Users/kiankhatibi/Desktop/MVC-Application-project/Someren Case/Views/Lecturer/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTGVjdHVyZXIvQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/kiankhatibi/Desktop/Someren-Case/Someren Case/Views/Lecturer/Delete.cshtml]
+[/Users/kiankhatibi/Desktop/MVC-Application-project/Someren Case/Views/Lecturer/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTGVjdHVyZXIvRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/kiankhatibi/Desktop/Someren-Case/Someren Case/Views/Lecturer/Edit.cshtml]
+[/Users/kiankhatibi/Desktop/MVC-Application-project/Someren Case/Views/Lecturer/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTGVjdHVyZXIvRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/kiankhatibi/Desktop/Someren-Case/Someren Case/Views/Lecturer/Index.cshtml]
+[/Users/kiankhatibi/Desktop/MVC-Application-project/Someren Case/Views/Lecturer/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTGVjdHVyZXIvSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/kiankhatibi/Desktop/Someren-Case/Someren Case/Views/Order/Create.cshtml]
+[/Users/kiankhatibi/Desktop/MVC-Application-project/Someren Case/Views/Order/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvT3JkZXIvQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/kiankhatibi/Desktop/Someren-Case/Someren Case/Views/Room/Create.cshtml]
+[/Users/kiankhatibi/Desktop/MVC-Application-project/Someren Case/Views/Room/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUm9vbS9DcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/kiankhatibi/Desktop/Someren-Case/Someren Case/Views/Room/Delete.cshtml]
+[/Users/kiankhatibi/Desktop/MVC-Application-project/Someren Case/Views/Room/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUm9vbS9EZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/kiankhatibi/Desktop/Someren-Case/Someren Case/Views/Room/Edit.cshtml]
+[/Users/kiankhatibi/Desktop/MVC-Application-project/Someren Case/Views/Room/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUm9vbS9FZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/kiankhatibi/Desktop/Someren-Case/Someren Case/Views/Room/Index.cshtml]
+[/Users/kiankhatibi/Desktop/MVC-Application-project/Someren Case/Views/Room/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUm9vbS9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/kiankhatibi/Desktop/Someren-Case/Someren Case/Views/Room/ManageDormitory.cshtml]
+[/Users/kiankhatibi/Desktop/MVC-Application-project/Someren Case/Views/Room/ManageDormitory.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUm9vbS9NYW5hZ2VEb3JtaXRvcnkuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/kiankhatibi/Desktop/Someren-Case/Someren Case/Views/Shared/Error.cshtml]
+[/Users/kiankhatibi/Desktop/MVC-Application-project/Someren Case/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/kiankhatibi/Desktop/Someren-Case/Someren Case/Views/Shared/_ValidationScriptsPartial.cshtml]
+[/Users/kiankhatibi/Desktop/MVC-Application-project/Someren Case/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/kiankhatibi/Desktop/Someren-Case/Someren Case/Views/Student/Create.cshtml]
+[/Users/kiankhatibi/Desktop/MVC-Application-project/Someren Case/Views/Student/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU3R1ZGVudC9DcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/kiankhatibi/Desktop/Someren-Case/Someren Case/Views/Student/Delete.cshtml]
+[/Users/kiankhatibi/Desktop/MVC-Application-project/Someren Case/Views/Student/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU3R1ZGVudC9EZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/kiankhatibi/Desktop/Someren-Case/Someren Case/Views/Student/Edit.cshtml]
+[/Users/kiankhatibi/Desktop/MVC-Application-project/Someren Case/Views/Student/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU3R1ZGVudC9FZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/kiankhatibi/Desktop/Someren-Case/Someren Case/Views/Student/Index.cshtml]
+[/Users/kiankhatibi/Desktop/MVC-Application-project/Someren Case/Views/Student/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU3R1ZGVudC9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/kiankhatibi/Desktop/Someren-Case/Someren Case/Views/_ViewImports.cshtml]
+[/Users/kiankhatibi/Desktop/MVC-Application-project/Someren Case/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/kiankhatibi/Desktop/Someren-Case/Someren Case/Views/_ViewStart.cshtml]
+[/Users/kiankhatibi/Desktop/MVC-Application-project/Someren Case/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/kiankhatibi/Desktop/Someren-Case/Someren Case/Views/Shared/_Layout.cshtml]
+[/Users/kiankhatibi/Desktop/MVC-Application-project/Someren Case/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-kfa8kihnkb

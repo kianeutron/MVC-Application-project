@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Someren Case")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+95a3a451c72ff3136393005c4c88298edde156f3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f806a447eafbcd12580d37b935e2b10c3aed015a")]
 [assembly: System.Reflection.AssemblyProductAttribute("Someren Case")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Someren Case")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
